@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #CBCBCB;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+    border: 5px solid rgb(100, 100, 100);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex: 1;   
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black; 
+}
+
+.column img{
+    height: 90px;
+    width: 90px;
+}
+
+.one,
+.two,
+.three{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.e{
+    color: #CBCBCB;
+}
+
+.one{
+    color: blue;
+}
+
+.two{
+    color: red;
+}
+
+.three{
+    color: green;
+}
+
+.not-played{
+    color: #CBCBCB;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.not-played:hover{
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black; 
+}
+
+.not-played.one:hover{
+    color: blue;
+    border
+}
+
+.not-played.two:hover{
+    color: red;
+}
+
+.not-played.three:hover{
+    color: green;
+}
